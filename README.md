@@ -25,6 +25,9 @@ Decision Tree (CART): We trained a tree model and visualized the actual splits t
 
 Random Forest: We trained an ensemble model, which achieved a 95% accuracy and a 0.99 ROC-AUC score on the validation set.
 
+<img width="415" height="276" alt="image" src="https://github.com/user-attachments/assets/5b21fc14-7baf-4ae4-a090-281d95ebc954" />
+
+
 3. Hyperparameter Tuning
 To make our models even better, we used GridSearchCV with 5-fold cross-validation on both the Decision Tree and the Random Forest. We tested multiple parameters (like max_depth and n_estimators) and optimized the models specifically for the F1-score, which helps balance precision and recall.
 
